@@ -59,11 +59,11 @@ The following resources will be provisioned in `us-east-1` AWS region as an outc
 #### Step #2: Drive Knowledge Base Code using Python
 
 Follow the following steps to provision necessary resources:
-- Go to [knowledge_base](https://github.com/ankit-jn/amazon-bedrock/tree/main/knowledge-base/kb) directory
+- Go to [kb](https://github.com/ankit-jn/amazon-bedrock/tree/main/knowledge-base/kb) directory
 - Create a Virutal Environment: `python -m venv .venv`
 - Activate the created environment: `.venv\Scripts\activate.bat`
 - Run the command `poetry install`
-- [main.py](https://github.com/ankit-jn/amazon-bedrock/blob/main/knowledge_base/kb/main.py) Execution Entry of the program
+- [main.py](https://github.com/ankit-jn/amazon-bedrock/blob/main/knowledge-base/kb/main.py) Execution Entry of the program
 
 #### Operations
 ---
@@ -88,6 +88,6 @@ The following resources will be provisioned in `us-east-1` AWS region as an outc
 
 #### Reference Data
 ---
-We have collected reference material regarding Hydrogen energey as a reference for setting up contexts and put it in [data](https://github.com/ankit-jn/amazon-bedrock/tree/main/knowledge-base/kb/data) folder
+We have collected reference material regarding Hydrogen energey as a reference for setting up contexts and put it in [data](https://github.com/ankit-jn/amazon-bedrock/tree/main/knowledge-base/data) folder
 
 - I would like to thank the authors of the above reference materials.This is to bring in notice that we are not using these reference material for any monetary purpose. It is just for the eductional use of showing how the documents can be used to set the context for generating relevant responses using RAG workflow.
